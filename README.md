@@ -16,7 +16,7 @@ This repository showcases my end-to-end data analytics projects across multiple 
 
 | Project | Description | Tools | Link |
 |---------|-------------|-------|------|
-| [Project Name 1](link-to-folder) | Brief one-line description | Excel, SQL | [View →](link-to-folder) |
+| [Bike-sales-in-EU](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/BIKE-SALES-IN-EUROPE) | Sales Dashboard | Excel| [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/BIKE-SALES-IN-EUROPE) |
 | [Project Name 2](link-to-folder) | Brief one-line description | Python, Power BI | [View →](link-to-folder) |
 | [Project Name 3](link-to-folder) | Brief one-line description | SQL, Python | [View →](link-to-folder) |
 
