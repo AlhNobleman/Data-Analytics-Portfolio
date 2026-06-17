@@ -1,0 +1,63 @@
+# Bike Sales Analysis - Europe 🇪🇺
+
+**End-to-End Excel Data Analysis & Interactive Dashboard**
+
+### 📋 Project Overview
+This project analyzes a **Bike Buyers** dataset to uncover key factors that influence whether a customer purchases a bike. The goal was to clean messy data, perform insightful analysis using Pivot Tables, and build an interactive dashboard to support business decision-making.
+
+### 🎯 Business Objective
+Identify customer segments most likely to purchase bikes based on demographics, income, commute distance, and age — helping the sales & marketing team target the right audience effectively.
+
+### 🛠️ Tools Used
+- **Microsoft Excel** (Advanced)
+  - Data Cleaning & Transformation
+  - Formulas (IF, VLOOKUP, etc.)
+  - Pivot Tables & Pivot Charts
+  - Interactive Dashboard with Slicers
+
+### 🔧 Project Process
+
+1. **Data Cleaning**
+   - Removed duplicates
+   - Handled missing values
+   - Standardized text formats
+   - Created new **"Age Bracket"** column using formulas for better segmentation:
+     - Gen Z (25-34)
+     - Gen X (35-50)
+     - Old (>50)
+
+2. **Exploratory Analysis using Pivot Tables**
+   - Average Income by Gender (Purchased vs Not Purchased)
+   - Bike Purchase Count by Commute Distance
+   - Bike Purchase Count by Age Bracket
+
+3. **Interactive Dashboard**
+   - Built a clean, professional dashboard with slicers for **Region, Education, Occupation, Marital Status**
+   - Key visualizations:
+     - Average Income by Gender
+     - Customer Age Bracket distribution
+     - Bike Purchase by Commute Distance
+     - Purchase Rate Overview
+
+### 📊 Key Insights
+- Males have significantly higher average income among bike buyers.
+- Customers living **0-1 miles** from work are most likely to purchase bikes.
+- **Gen X (35-50)** shows the highest purchase rate.
+- Clear correlation between income, commute distance, and purchase behavior.
+
+### 📁 Files in this Directory
+- `Bike_buyers.xlsx` → Main Excel file (Cleaned data + Pivot Tables + Dashboard)
+- `Working Sheet` → Data cleaning & transformation
+- `Pivot Table` → All analytical tables
+- `Dashboard` → Final interactive dashboard
+
+### 💡 Skills Demonstrated
+- Advanced Excel (Formulas, Pivot Tables, Dashboarding)
+- Data Cleaning & Preparation
+- Business Insights Generation
+- Interactive Data Visualization
+
+---
+
+**Ready to explore the analysis?**  
+👉 Open `Bike_buyers.xlsx` and click on the **Dashboard** tab.
