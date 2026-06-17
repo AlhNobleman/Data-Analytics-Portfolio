@@ -28,6 +28,6 @@ Aspiring Data Analyst passionate about turning raw data into actionable insights
 
 ## 📬 Get in Touch
 
-- **Email**: [idrisshomoye@gmail.com](mailto:your.email@example.com)
+- **Email**: [Email](idrishomoye@gmail.com)
 - **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 - **GitHub**: [github.com/AlhNobleman](https://github.com/AlhNobleman)
