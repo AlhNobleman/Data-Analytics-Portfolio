@@ -1,7 +1,6 @@
 # Retail Sales Dashboard
 
-![Dashboard Preview](<img width="1300" height="540" alt="image" src="https://github.com/user-attachments/assets/af86252e-e52e-4a5a-9bd4-af5cfdd6583d" />
-)
+![Dashboard Preview](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RETAIL-STORE-SALES/01_Retail_Sales%20Dashboard%20Tableau.png)
 
 ## 📋 Project Overview
 End-to-end retail sales analysis using **Tableau** and **SQL**.  
