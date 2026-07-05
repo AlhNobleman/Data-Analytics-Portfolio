@@ -10,7 +10,6 @@ Analyzed over 11,000 transactions to understand revenue trends, customer behavio
 - Average Order Value = $129.7
 - Total Revenue = $1.55 Million
 - Top performing category: Butchers
-- etc. (add 3-4 bullet points)
 
 ## 🛠️ Tools & Skills Demonstrated
 - **Tableau Public** – Dashboard creation, calculated fields, visualizations
