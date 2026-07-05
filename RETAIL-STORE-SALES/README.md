@@ -1,6 +1,7 @@
 # Retail Sales Dashboard
 
-![Dashboard Preview](RETAIL-STORE-SALES/01_Retail_Sales Dashboard Tableau.png)
+![Dashboard Preview](<img width="1300" height="540" alt="image" src="https://github.com/user-attachments/assets/af86252e-e52e-4a5a-9bd4-af5cfdd6583d" />
+)
 
 ## 📋 Project Overview
 End-to-end retail sales analysis using **Tableau** and **SQL**.  
