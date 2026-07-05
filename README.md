@@ -17,9 +17,7 @@ This repository showcases my end-to-end data analytics projects across multiple 
 | Project | Description | Tools | Link |
 |---------|-------------|-------|------|
 | [Bike-sales-in-EU](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/BIKE-SALES-IN-EUROPE) | Sales Dashboard | Excel| [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/BIKE-SALES-IN-EUROPE) |
-| [Retail-Store-Sales](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) | Interactive Retail Sales Dashboard built in Tableau analyzing revenue trends, customer behavior, and top-performing products.
-
-| Python, Power BI | [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) |
+| [Retail-Store-Sales](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) | Interactive Retail Sales Dashboard built in Tableau analyzing revenue trends, customer behavior, and top-performing products. | Excel, SQL, Tableau | [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) |
 | [Project Name 3](link-to-folder) | Brief one-line description | SQL, Python | [View →](link-to-folder) |
 
 > *More projects will be added regularly.*
