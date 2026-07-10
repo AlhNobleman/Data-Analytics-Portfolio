@@ -23,7 +23,7 @@ Analyzed over 11,000 transactions to understand revenue trends, customer behavio
 - `screenshots/` → Supporting images
 
 ## 🔗 Live Dashboard
-**[View Interactive Dashboard →](https://public.tableau.com/views/Book1_17831967140940/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+**[View Interactive Dashboard →](https://public.tableau.com/views/retail_newdashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ---
 
