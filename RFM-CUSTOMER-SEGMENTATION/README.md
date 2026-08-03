@@ -2,7 +2,9 @@
 
 An end-to-end analytics project: cleaned a messy retail dataset in Excel, ran exploratory analysis and built RFM logic in SQL, and visualized customer segments in Tableau.
 
-**🔗 Live Dashboard:** [Tableau Public link]
+**🔗 Live Dashboard I:** [https://public.tableau.com/views/RFMDASHBOARDI/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+
+**🔗 Live Dashboard II:** https://public.tableau.com/views/RFMDASHBOARDII/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link[]
 
 ---
 
@@ -13,14 +15,16 @@ Segments 350 customers into behavioral groups (**Champions, At Risk, Lost, New/O
 ## Tools
 Excel · MySQL · Tableau Public
 
-## Key insight
-One of the dataset's most *frequent* buyers (88 orders) ranked outside the top 100 customers by total *spend* — a reminder that frequency and value don't always move together, and a big part of why this project scores customers on all three RFM dimensions rather than just one.
+## Key insights
+- One of the dataset's most *frequent* buyers (88 orders) ranked outside the top 100 customers by total *spend* — a reminder that frequency and value don't always move together, and a big part of why this project scores customers on all three RFM dimensions rather than just one.
+- According to my analysis, top-selling products by revenue and top-selling products by quantity frequently don't correspond — the product driving the most revenue isn't necessarily the one selling in the highest volume, and vice versa. This highlights the importance of evaluating product performance through multiple lenses rather than relying on a single metric.
+
 
 ## Dashboards
 
-**Dashboard 1 — Executive Summary:** KPIs, revenue by segment, customer count by segment, RFM scatter plot, revenue by country.
+**Dashboard I — Executive Summary:** KPIs, revenue by segment, customer count by segment, RFM scatter plot, revenue by country.
 
-**Dashboard 2 — Supporting Detail:** top products by revenue vs. quantity, RFM distribution histograms, average R/F/M per segment, top customers by spend.
+**Dashboard II — Supporting Detail:** top products by revenue vs. quantity, RFM distribution histograms, average R/F/M per segment, top customers by spend.
 
 ## Skills demonstrated
 Excel formula-based data recovery (lookup formulas, text parsing, conditional logic) · SQL (CTEs, window functions, aggregates) · RFM segmentation methodology · Tableau dashboard design
