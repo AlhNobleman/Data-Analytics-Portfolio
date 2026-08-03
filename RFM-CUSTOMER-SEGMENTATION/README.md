@@ -63,9 +63,9 @@ Excel formula-based data recovery (lookup formulas, text parsing, conditional lo
 ### RFM methodology
 For each customer:
 
-- Recency — days since their last purchase, relative to the dataset's most recent transaction date (not the real-world current date, since the dataset doesn't extend to today)
-- Frequency — count of distinct invoices
-- Monetary — total net spend (SUM(Quantity × UnitPrice)), reported per segment as a supporting metric
+- Recency: days since their last purchase, relative to the dataset's most recent transaction date (not the real-world current date, since the dataset doesn't extend to today)
+- Frequency: count of distinct invoices
+- Monetary: total net spend (SUM(Quantity × UnitPrice)), reported per segment as a supporting metric
 
   Customers were segmented using a simple, direct Recency/Frequency threshold rule rather than a quartile-based scoring system, to keep the logic easy to read and explain:
   IF [Recency] <= 30 AND [Frequency] >= 15 THEN "Champions"
@@ -74,7 +74,7 @@ ELSEIF [Recency] > 30 AND [Frequency] >= 15 THEN "At Risk"
 ELSE "Lost"
 END
 
-Because this rule uses exactly two binary conditions (Recency ≤/> 30, Frequency ≥/< 15), there are only 2² = 4 possible outcomes, all of which are explicitly covered — so no customer falls through to "Lost" by default due to incomplete logic.
+Because this rule uses exactly two binary conditions (Recency ≤/> 30, Frequency ≥/< 15), there are only 2² = 4 possible outcomes, all of which are explicitly covered, so no customer falls through to "Lost" by default due to incomplete logic.
 
 Result: 350 customers split into Champions (141), At Risk (104), Lost (58), New/Occasional (47).
 </details>
