@@ -8,7 +8,7 @@ An end-to-end analytics project: cleaned a messy retail dataset in Excel, ran ex
 
 ## What this project does
 
-Segments ~350 customers into behavioral groups (**Champions, At Risk, Lost, New/Occasional**) using **Recency, Frequency, and Monetary** value, then visualizes revenue and customer distribution across those segments — the kind of analysis a retail business would use to prioritize retention efforts and marketing spend.
+Segments 350 customers into behavioral groups (**Champions, At Risk, Lost, New/Occasional**) using **Recency and Frequency** value, then visualizes revenue and customer distribution across those segments — the kind of analysis a retail business would use to prioritize retention efforts and marketing spend.
 
 ## Tools
 Excel · MySQL · Tableau Public
