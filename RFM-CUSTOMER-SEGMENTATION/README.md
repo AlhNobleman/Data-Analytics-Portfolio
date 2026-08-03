@@ -8,8 +8,12 @@ An end-to-end analytics project: cleaned a messy retail dataset in Excel, ran ex
 
 ![Dashboard Preview](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/GALLERY/RFM-Dashboard%20I.png)
 
+
 **🔗 Live Dashboard II**
 **[View Interactive Dashboard →](https://public.tableau.com/views/RFMDASHBOARDII/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+
+![Dashboard Preview](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/GALLERY/RFM-Dashboard%20II.png)
 
 ---
 
