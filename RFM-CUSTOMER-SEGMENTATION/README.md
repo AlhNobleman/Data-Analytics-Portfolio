@@ -39,7 +39,7 @@ Excel · MySQL · Tableau Public
 Excel formula-based data recovery (lookup formulas, text parsing, conditional logic) · SQL (CTEs, window functions, aggregates) · RFM segmentation methodology · Tableau dashboard design
 
 ## Files
-- `dirty_retail_transactions.csv` — raw dataset
+- [`dirty_retail_transactions.csv`](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/dirty_retail_transactions.xlsx) — raw dataset
 - `company_rfmm.xlsx` — cleaned data
 - `rfm_analysis.sql` — SQL scripts
 - `rfm dashboard.twbx` — Tableau workbook
