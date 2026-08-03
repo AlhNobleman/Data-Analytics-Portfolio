@@ -36,7 +36,7 @@ Excel formula-based data recovery (lookup formulas, text parsing, conditional lo
 - `company_rfmm.xlsx` — cleaned data
 - `rfm_analysis.sql` — SQL scripts
 - `rfm dashboard.twbx` — Tableau workbook
-- `PROCESS.md` — full write-up of the cleaning process, data issues encountered, and methodology decisions
+- full write-up of the cleaning process, data issues encountered, and methodology decisions in <details>
 
 ---
 
