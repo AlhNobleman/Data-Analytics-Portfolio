@@ -61,6 +61,20 @@ Excel formula-based data recovery (lookup formulas, text parsing, conditional lo
 **Known limitation:** negative quantities and "C"-prefixed invoice numbers (which represent returns/cancellations) were normalized early in cleaning, before their meaning was understood. This analysis therefore treats all transactions as completed sales; returns analysis was not performed on this dataset.
 
 ### RFM methodology
-Recency and Frequency quartile thresholds were calculated directly from the data using SQL's `NTILE(4)`, rather than assumed. Segments are defined by Recency and Frequency; Monetary is reported per segment as a supporting metric. An earlier attempt to combine all three dimensions via nested conditional logic surfaced a broader lesson — with *n* binary conditions there are 2ⁿ combinations to account for, and incomplete logic silently funnels the rest into a default bucket. Documented here as a deliberate scope decision for this iteration.
+For each customer:
 
+- Recency — days since their last purchase, relative to the dataset's most recent transaction date (not the real-world current date, since the dataset doesn't extend to today)
+- Frequency — count of distinct invoices
+- Monetary — total net spend (SUM(Quantity × UnitPrice)), reported per segment as a supporting metric
+
+  Customers were segmented using a simple, direct Recency/Frequency threshold rule rather than a quartile-based scoring system, to keep the logic easy to read and explain:
+  IF [Recency] <= 30 AND [Frequency] >= 15 THEN "Champions"
+ELSEIF [Recency] <= 30 AND [Frequency] < 15 THEN "New/Occasional"
+ELSEIF [Recency] > 30 AND [Frequency] >= 15 THEN "At Risk"
+ELSE "Lost"
+END
+
+Because this rule uses exactly two binary conditions (Recency ≤/> 30, Frequency ≥/< 15), there are only 2² = 4 possible outcomes, all of which are explicitly covered — so no customer falls through to "Lost" by default due to incomplete logic.
+
+Result: 350 customers split into Champions (141), At Risk (104), Lost (58), New/Occasional (47).
 </details>
