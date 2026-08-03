@@ -2,9 +2,11 @@
 
 An end-to-end analytics project: cleaned a messy retail dataset in Excel, ran exploratory analysis and built RFM logic in SQL, and visualized customer segments in Tableau.
 
-**🔗 Live Dashboard I:** [https://public.tableau.com/views/RFMDASHBOARDI/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+**🔗 Live Dashboard I
+**[View Interactive Dashboard →](https://public.tableau.com/views/RFMDASHBOARDI/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-**🔗 Live Dashboard II:** https://public.tableau.com/views/RFMDASHBOARDII/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link[]
+**🔗 Live Dashboard II
+**[View Interactive Dashboard →](https://public.tableau.com/views/RFMDASHBOARDII/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ---
 
