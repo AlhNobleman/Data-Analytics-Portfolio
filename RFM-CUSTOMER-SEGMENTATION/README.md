@@ -1,0 +1,60 @@
+# Customer Segmentation using RFM Analysis
+
+An end-to-end analytics project: cleaned a messy retail dataset in Excel, ran exploratory analysis and built RFM logic in SQL, and visualized customer segments in Tableau.
+
+**🔗 Live Dashboard:** [Tableau Public link]
+
+---
+
+## What this project does
+
+Segments ~350 customers into behavioral groups (**Champions, At Risk, Lost, New/Occasional**) using **Recency, Frequency, and Monetary** value, then visualizes revenue and customer distribution across those segments — the kind of analysis a retail business would use to prioritize retention efforts and marketing spend.
+
+## Tools
+Excel · MySQL · Tableau Public
+
+## Key insight
+One of the dataset's most *frequent* buyers (88 orders) ranked outside the top 100 customers by total *spend* — a reminder that frequency and value don't always move together, and a big part of why this project scores customers on all three RFM dimensions rather than just one.
+
+## Dashboards
+
+**Dashboard 1 — Executive Summary:** KPIs, revenue by segment, customer count by segment, RFM scatter plot, revenue by country.
+
+**Dashboard 2 — Supporting Detail:** top products by revenue vs. quantity, RFM distribution histograms, average R/F/M per segment, top customers by spend.
+
+## Skills demonstrated
+Excel formula-based data recovery (lookup formulas, text parsing, conditional logic) · SQL (CTEs, window functions, aggregates) · RFM segmentation methodology · Tableau dashboard design
+
+## Files
+- `dirty_retail_transactions.csv` — raw dataset
+- `company_rfmm.xlsx` — cleaned data
+- `rfm_analysis.sql` — SQL scripts
+- `rfm dashboard.twbx` — Tableau workbook
+- `PROCESS.md` — full write-up of the cleaning process, data issues encountered, and methodology decisions
+
+---
+
+<details>
+<summary><b>📋 Full process write-up (data issues, cleaning steps, methodology notes)</b></summary>
+
+### Dataset issues at the start
+- 511 rows missing CustomerID/CustomerName
+- 956 rows missing Email
+- Inconsistent InvoiceDate formats (mixed mm/dd/yyyy and dd/mm/yyyy)
+- Duplicate rows not caught by an initial dedup pass
+- Inconsistent UnitPrice formatting ($ symbols, comma decimals, zeros)
+- Inconsistent Country spelling/casing
+
+### Cleaning approach
+- Recovered missing CustomerID/Name by extracting the ID embedded in each customer's email address
+- Recovered missing emails via cross-referencing CustomerID across a customer's other rows
+- Resolved date ambiguity by discovering and verifying a real pattern in the data: rows with a time component were consistently dd/mm/yyyy, rows without were mm/dd/yyyy
+- Standardized prices using a StockCode-based lookup to backfill missing/zeroed values with each product's most common price
+- Fixed a duplicate-detection bug where a sequential RowID column was making every row look unique to Excel's Remove Duplicates tool
+
+**Known limitation:** negative quantities and "C"-prefixed invoice numbers (which represent returns/cancellations) were normalized early in cleaning, before their meaning was understood. This analysis therefore treats all transactions as completed sales; returns analysis was not performed on this dataset.
+
+### RFM methodology
+Recency and Frequency quartile thresholds were calculated directly from the data using SQL's `NTILE(4)`, rather than assumed. Segments are defined by Recency and Frequency; Monetary is reported per segment as a supporting metric. An earlier attempt to combine all three dimensions via nested conditional logic surfaced a broader lesson — with *n* binary conditions there are 2ⁿ combinations to account for, and incomplete logic silently funnels the rest into a default bucket. Documented here as a deliberate scope decision for this iteration.
+
+</details>
