@@ -39,10 +39,11 @@ Excel · MySQL · Tableau Public
 Excel formula-based data recovery (lookup formulas, text parsing, conditional logic) · SQL (CTEs, window functions, aggregates) · RFM segmentation methodology · Tableau dashboard design
 
 ## Files
-- [`dirty_retail_transactions.csv`](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/dirty_retail_transactions.xlsx) — raw dataset
-- `company_rfmm.xlsx` — cleaned data
-- `rfm_analysis.sql` — SQL scripts
-- `rfm dashboard.twbx` — Tableau workbook
+- [`dirty_retail_transactions.xlsx`](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/dirty_retail_transactions.xlsx) — raw dataset
+- [`Clean-retail-transactions.xlsx`](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/clean-retail-transactions.xlsx) — cleaned data
+- [`SQL-RFM_Analysis-Explanatory.sql`](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/SQL-RFM_Analysis-Explanatory.sql) — SQL scripts
+- [`Interactive-Dashboard-RFM.twbx`](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/RFM-CUSTOMER-SEGMENTATION/Interactive-Dashboard-RFM.twb) — Tableau workbook
+- [Gallery](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RFM-CUSTOMER-SEGMENTATION/GALLERY) -- Images/Screenshots
 - Read full write-up of the cleaning process, data issues encountered, and methodology decisions below
 
 ---
