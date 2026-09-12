@@ -16,7 +16,7 @@ This repository showcases my end-to-end data analytics projects across multiple 
 
 | Project | Description | Tools | Link |
 |---------|-------------|-------|------|
-| [DecisionMart Inventory Dashboard](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/DecisionMart_LTD%20_Inventory_Dashboard) | Sales &Inventory Dashboard, EDA Analysis | Excel & SQL| [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/DecisionMart_LTD%20_Inventory_Dashboard) |
+| [DecisionMart Inventory Dashboard](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/DecisionMart_LTD%20_Inventory_Dashboard) | Sales & Inventory Dashboard, EDA Analysis | Excel & SQL| [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/DecisionMart_LTD%20_Inventory_Dashboard) |
 | [Retail-Store-Sales](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) | Interactive Retail Sales Dashboard built in Tableau analyzing revenue trends, customer behavior, and top-performing products. | Excel, SQL, Tableau | [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) |
 | [RFM-CUSTOMER-SEGMENTATION](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RFM-CUSTOMER-SEGMENTATION) | Customer behaviour analysis | Excel, SQL, Tableau | [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RFM-CUSTOMER-SEGMENTATION) |
 | [soooooooooooooon](link-to-folder) | Brief one-line description | SQL, Python | [View →](link-to-folder) |
