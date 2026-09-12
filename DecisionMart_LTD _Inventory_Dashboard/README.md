@@ -35,7 +35,7 @@ The purpose of this project was to analyze these areas and provide management wi
 
 ## 📈 Dashboard Preview
 
-![Sales Dashboard](dashboard.png)
+![Sales Dashboard](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/DecisionMart_LTD%20_Inventory_Dashboard/screenshots/DecisionMart_dashboard.png)
 
 > The dashboard contains interactive KPIs, charts, product analysis, inventory classification, and a Product Opportunity Matrix.
 
