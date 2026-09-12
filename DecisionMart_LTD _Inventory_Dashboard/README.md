@@ -16,6 +16,38 @@ The objective of the project is to transform raw sales data into actionable busi
 
 The dashboard was designed as a **management decision-support tool**, allowing users to interact with the data through slicers and explore different aspects of business performance.
 
+# DecisionMart Retail Sales Dashboard
+
+An interactive Excel sales analytics dashboard designed to support
+business decision-making through revenue, profitability, transaction,
+product, branch, and inventory analysis.
+
+## 🚀 How to Use
+
+**1. Download the Excel dashboard**
+
+Download:
+`DecisionMart_Retail_Dashboard.xlsm`
+
+**2. Unblock the file**
+
+After downloading:
+
+`Right-click → Properties → Unblock → Apply → OK`
+
+**3. Open in Microsoft Excel**
+
+When prompted:
+
+`Security Warning → Enable Content`
+
+**4. Interact with the dashboard**
+
+Use the slicers and interactive controls to explore the data.
+
+> ⚠️ This dashboard uses VBA macros for some interactive features.
+> Macros must be enabled for those features to work.
+
 ---
 
 ## 🎯 Business Problem
