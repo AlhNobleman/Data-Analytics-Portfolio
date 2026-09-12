@@ -68,6 +68,8 @@ The purpose of this project was to analyze these areas and provide management wi
 
 ![vs previous month](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/DecisionMart_LTD%20_Inventory_Dashboard/screenshots/another_view.jpg)
 
+![product opporunity matrix](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/DecisionMart_LTD%20_Inventory_Dashboard/screenshots/product_opportunity%20matrix.jpg)
+
 > The dashboard contains interactive KPIs, charts, product analysis, inventory classification, and a Product Opportunity Matrix.
 
 ---
