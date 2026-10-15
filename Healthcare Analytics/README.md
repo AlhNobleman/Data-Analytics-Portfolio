@@ -25,6 +25,17 @@ The report includes measures with names indicating:
 
 Exact formulas, denominators, reporting dates and filter behavior should be checked in the PBIX model before using these metrics for operational decisions.
 
+
+
+## Report Components
+The current Power BI layout includes:
+- KPI cards for total patients, year-to-date patient count, average length of stay, bed occupancy, total admissions and total discharges.
+- A monthly trend chart comparing admissions and discharges.
+- Bar charts showing discharges by diagnosis and department.
+- Donut charts comparing admissions and discharges across week types.
+- A detail matrix combining discharge/admission measures with day and time fields.
+- Slicers for the report's parameter, moment, and quarter fields.
+
 ## Workflow
 1. **Data preparation:** use Power Query to review source fields, data types, missing or inconsistent values, and transformation steps.
 2. **Data modelling:** establish appropriate relationships and date logic where needed.
