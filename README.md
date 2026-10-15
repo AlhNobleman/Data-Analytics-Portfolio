@@ -1,34 +1,31 @@
 # Data Analytics Portfolio
 
-Welcome to my Data Analytics Portfolio! 
+Welcome to my data analytics portfolio. This repository showcases practical projects focused on transforming raw data into useful insights for business and operational decision-making.
 
-This repository showcases my end-to-end data analytics projects across multiple tools and technologies. It serves as a central hub for recruiters and hiring managers to explore my practical skills and problem-solving abilities.
+## Tools & Technologies
+- **Microsoft Excel** — data preparation, analysis, PivotTables, and dashboards
+- **SQL / MySQL** — data cleaning, joins, CTEs, aggregations, CASE statements, and exploratory analysis
+- **Power BI** — data modelling, DAX measures, interactive reports, and data visualization
+- **Power Query (M)** — data extraction, cleaning, transformation, and preparation
+- **Tableau** — interactive dashboards and visual analytics
+- **Python** — data analysis and automation with libraries such as Pandas and NumPy
 
-## 🛠️ Tools & Technologies
+## Projects
 
-- **Excel** – Advanced dashboards, data cleaning, and analysis
-- **SQL** – Database querying, joins, CTEs, and performance optimization
-- **Python** – Pandas, NumPy, Matplotlib, Seaborn, and data automation
-- **Power BI** / Tableau – Interactive dashboards and visualizations
-- Other tools as relevant per project
+| Project | Summary | Tools | Repository |
+|---|---|---|---|
+| **Healthcare Analytics Dashboard** | Healthcare operations dashboard exploring patient volume, year-to-date patient counts, average length of stay, and bed occupancy indicators. | Power BI, Power Query, DAX | [View project](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/Healthcare%20Analytics) |
+| **DecisionMart Inventory Dashboard** | Inventory and sales analysis with stock-status monitoring and product opportunity insights. | Excel, SQL | [View project](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/DecisionMart_LTD%20_Inventory_Dashboard) |
+| **Retail Store Sales** | Retail sales dashboard exploring revenue trends, customer behaviour, and product performance. | Excel, SQL, Tableau | [View project](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) |
+| **RFM Customer Segmentation** | Customer segmentation using recency, frequency, and monetary value. | Excel, SQL, Tableau | [View project](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RFM-CUSTOMER-SEGMENTATION) |
+| **Bike Sales in Europe** | Bike-buyer and sales analysis presented through Excel reporting. | Excel | [View project](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/BIKE-SALES-IN-EUROPE) |
 
-## 📂 Projects
+## About Me
+I am an aspiring data analyst interested in using data to answer business questions, measure performance, identify patterns, and communicate actionable insights. I am open to suitable full-time roles, internships, and freelance opportunities.
 
-| Project | Description | Tools | Link |
-|---------|-------------|-------|------|
-| [DecisionMart Inventory Dashboard](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/DecisionMart_LTD%20_Inventory_Dashboard) | Sales & Inventory Dashboard, Exploratory Data Analysis | Excel & SQL| [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/DecisionMart_LTD%20_Inventory_Dashboard) |
-| [Retail-Store-Sales](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) | Interactive Retail Sales Dashboard built in Tableau analyzing revenue trends, customer behavior, and top-performing products. | Excel, SQL, Tableau | [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RETAIL-STORE-SALES) |
-| [RFM-CUSTOMER-SEGMENTATION](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RFM-CUSTOMER-SEGMENTATION) | Customer behaviour analysis | Excel, SQL, Tableau | [View →](https://github.com/AlhNobleman/Data-Analytics-Portfolio/tree/main/RFM-CUSTOMER-SEGMENTATION) |
-| [soooooooooooooon](link-to-folder) | Brief one-line description | SQL, Python | [View →](link-to-folder) |
+## Contact
+- **Email:** [idrisshomoye@gmail.com](mailto:idrisshomoye@gmail.com)
+- **LinkedIn:** [Idris Shomoye](https://www.linkedin.com/in/idris-shomoye-498849202)
+- **GitHub:** [AlhNobleman](https://github.com/AlhNobleman)
 
-> *More projects will be added regularly.*
-
-## 📌 About Me
-
-Aspiring Data Analyst passionate about turning raw data into actionable insights. Open to full-time roles, internships, and freelance opportunities.
-
-## 📬 Get in Touch
-
-- **Email**: [idrisshomoye@gmail.com](mailto:idrisshomoye@gmail.com)
-- **LinkedIn**: [linkedin.com/in/idris-shomoye-498849202](https://www.linkedin.com/in/idris-shomoye-498849202)
-- **GitHub**: [github.com/AlhNobleman](https://github.com/AlhNobleman)
+> Project outputs are portfolio demonstrations. Please refer to each project README for its scope, assumptions, and interpretation notes.
