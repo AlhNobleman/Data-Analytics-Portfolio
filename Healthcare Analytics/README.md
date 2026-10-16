@@ -48,21 +48,12 @@ The current Power BI layout includes:
 4. **Visualization:** present summary KPIs and supporting report visuals in Power BI.
 5. **Validation:** test slicers, date filters, measure totals and edge cases to confirm the figures respond as expected.
 
-## Repository Structure
-```text
-Healthcare Analytics/
-├── README.md
-├── practice health.pbix  # add the supplied Power BI file here
-├── Documentation/
-│   └── project-notes.md
-└── Screenshots/
-    └── README.md
-```
+
 
 The screenshot folder contains a note on the recommended evidence to add. Dashboard screenshots should be exported from Power BI and saved there as PNG files. The supplied PBIX file has not yet been committed to this repository; add it at the path shown above before describing it as downloadable from GitHub.
 
 ## How to View
-1. Once `practice health.pbix` has been added to this folder, download it from GitHub.
+1. Once `healthcare analytics.pbix` has been added to this folder, download it from GitHub.
 2. Open it using Microsoft Power BI Desktop.
 3. Refresh the data only if the source files and required access are available.
 4. Use the report filters and slicers to explore the measures and views.
