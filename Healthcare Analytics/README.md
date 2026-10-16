@@ -3,6 +3,11 @@
 ## Project Overview
 This project uses Microsoft Power BI to explore healthcare operations and present key performance indicators in an interactive dashboard. It is designed to help viewers examine patient activity and operational performance through summary metrics and visual reporting.
 
+## 📈 Dashboard Preview
+
+![HealthCareDashboard](https://github.com/AlhNobleman/Data-Analytics-Portfolio/blob/main/Healthcare%20Analytics/Screenshots/screenshot1.jpg)
+
+
 > **Portfolio note:** Findings and KPI definitions should be interpreted in the context of the dataset, reporting period, and business rules used in the report. This is an analytical portfolio project, not a clinical decision-support tool.
 
 ## Objectives
